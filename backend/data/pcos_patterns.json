@@ -1,0 +1,47 @@
+{
+  "description": "Lifestyle-based pattern weights derived from public PCOS datasets. This configuration is used only for awareness-based insights and not for medical diagnosis.",
+
+  "features": {
+    "irregular_periods": {
+      "label": "Periods often late or unpredictable",
+      "weight": 0.25
+    },
+    "weight_gain": {
+      "label": "Gains weight easily",
+      "weight": 0.20
+    },
+    "acne_or_oily_skin": {
+      "label": "Frequent acne or oily skin",
+      "weight": 0.15
+    },
+    "hair_issues": {
+      "label": "Hair fall or thinning",
+      "weight": 0.15
+    },
+    "family_history": {
+      "label": "Family history of hormonal issues",
+      "weight": 0.15
+    },
+    "mood_swings": {
+      "label": "Mood swings or low energy",
+      "weight": 0.10
+    }
+  },
+
+  "answer_mapping": {
+    "Yes": 1,
+    "Sometimes": 0.5,
+    "No": 0
+  },
+
+  "thresholds": {
+    "low": 0.30,
+    "moderate": 0.60
+  },
+
+  "result_messages": {
+    "low": "Your responses show low similarity to commonly observed PCOS-related lifestyle patterns.",
+    "moderate": "Your responses show moderate similarity to commonly observed PCOS-related lifestyle patterns.",
+    "high": "Your responses show higher similarity to commonly observed PCOS-related lifestyle patterns."
+  }
+}

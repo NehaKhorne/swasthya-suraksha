@@ -1,0 +1,15 @@
+{
+  "features": {
+    "irregular_periods": { "weight": 0.25 },
+    "weight_gain": { "weight": 0.20 },
+    "acne": { "weight": 0.15 },
+    "hair_issues": { "weight": 0.15 },
+    "family_history": { "weight": 0.15 },
+    "mood_swings": { "weight": 0.10 }
+  },
+  "answer_mapping": {
+    "Yes": 1,
+    "Sometimes": 0.5,
+    "No": 0
+  }
+}

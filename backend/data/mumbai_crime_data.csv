@@ -1,0 +1,33 @@
+area,lat,lng,type,count,source
+Andheri East,19.1136,72.8697,Kidnapping,42,FIR
+Andheri East,19.1142,72.8705,Chain Snatching,55,FIR
+Kurla,19.0728,72.8826,Kidnapping,60,FIR
+Kurla,19.0735,72.8831,Chain Snatching,72,FIR
+Dadar,19.0178,72.8478,Molestation,38,FIR
+Dadar,19.0185,72.8482,Assault,44,FIR
+Bandra West,19.0596,72.8295,Robbery,50,FIR
+Bandra West,19.0601,72.8302,Chain Snatching,46,FIR
+Ghatkopar East,19.0856,72.9081,Assault,65,FIR
+Ghatkopar East,19.0862,72.9090,Kidnapping,40,FIR
+Malad West,19.1860,72.8486,Chain Snatching,58,FIR
+Malad West,19.1872,72.8494,Robbery,34,FIR
+Chembur,19.0626,72.9005,Kidnapping,48,FIR
+Chembur,19.0633,72.9011,Molestation,36,FIR
+Borivali West,19.2307,72.8567,Robbery,29,FIR
+Borivali West,19.2315,72.8575,Chain Snatching,41,FIR
+Powai,19.1176,72.9060,Kidnapping,33,FIR
+Powai,19.1183,72.9068,Molestation,27,FIR
+Mulund West,19.1726,72.9562,Assault,39,FIR
+Mulund West,19.1734,72.9570,Kidnapping,31,FIR
+Sion,19.0469,72.8647,Chain Snatching,47,FIR
+Sion,19.0475,72.8655,Robbery,35,FIR
+Vikhroli,19.1100,72.9280,Kidnapping,28,FIR
+Vikhroli,19.1110,72.9290,Assault,33,FIR
+Jogeshwari,19.1367,72.8488,Molestation,45,FIR
+Jogeshwari,19.1375,72.8495,Chain Snatching,52,FIR
+Kandivali,19.2058,72.8508,Robbery,37,FIR
+Kandivali,19.2065,72.8516,Kidnapping,30,FIR
+Thane,19.2183,72.9781,Kidnapping,62,FIR
+Thane,19.2190,72.9790,Chain Snatching,74,FIR
+Navi Mumbai,19.0330,73.0297,Robbery,43,FIR
+Navi Mumbai,19.0340,73.0305,Molestation,39,FIR
