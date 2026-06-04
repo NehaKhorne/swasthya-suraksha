@@ -188,6 +188,8 @@ The system evaluates multiple machine learning algorithms, including:
 The platform follows a modular architecture consisting of:
 
 **Frontend Layer → Backend Layer → AI/ML Layer → Database Layer → Deployment Layer**
+<img width="1195" height="674" alt="image" src="https://github.com/user-attachments/assets/ed198f13-ed8b-4dc3-80d2-c3229a96df6e" />
+<img width="1306" height="666" alt="image" src="https://github.com/user-attachments/assets/8e7c531b-99fe-46b0-9f21-76a50abd9eab" />
 
 This architecture ensures scalability, maintainability, and seamless integration between predictive analytics and real-time safety services.
 
