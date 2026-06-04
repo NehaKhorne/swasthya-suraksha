@@ -1,0 +1,203 @@
+.pcos-page {
+  min-height: 100vh;
+  padding: 50px 20px 120px;
+  background: linear-gradient(135deg, #f5f3ff, #eef2ff);
+  font-family: "Inter", "Poppins", sans-serif;
+}
+
+.hero {
+  height: 180px;
+  border-radius: 18px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(6px);
+  padding: 20px 40px;
+  border-radius: 14px;
+  text-align: center;
+}
+
+
+/* Back */
+.back-btn {
+  background: none;
+  border: none;
+  color: #6366f1;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.hero h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.hero p {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* Progress */
+.progress-wrapper {
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.progress-track {
+  height: 6px;
+  background: #e5e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #6366f1;
+  transition: width 0.4s ease;
+}
+
+.progress-text {
+  font-size: 12px;
+  color: #6b7280;
+  margin-top: 6px;
+  text-align: right;
+}
+
+/* Questions */
+.questions-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.question-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.question-title {
+  font-weight: 600;
+  margin-bottom: 14px;
+  color: #111827;
+}
+
+/* Options */
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.option-pill {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.option-pill:hover {
+  background: #eef2ff;
+}
+
+.option-pill input {
+  display: none;
+}
+
+.option-pill input:checked + span {
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+/* Button */
+.submit-btn {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 35px auto 0;
+  padding: 14px;
+  border-radius: 12px;
+  background: #6366f1;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #4f46e5;
+}
+
+/* Result */
+.result-section {
+  max-width: 600px;
+  margin: 60px auto 0;
+  text-align: center;
+}
+
+circle {
+  fill: none;
+  stroke-width: 14;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+.bg {
+  stroke: #e5e7eb;
+}
+
+.progress {
+  stroke-dasharray: 502;
+  transition: stroke-dashoffset 1s ease;
+}
+
+.lowrisk { stroke: #22c55e; }
+.mildrisk { stroke: #eab308; }
+.moderaterisk { stroke: #f97316; }
+.highrisk { stroke: #ef4444; }
+
+.circle-container {
+  position: relative;
+  margin: 30px auto;
+  width: 200px;
+}
+
+.circle-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-text h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.circle-text p {
+  font-size: 14px;
+  font-weight: 500;
+}

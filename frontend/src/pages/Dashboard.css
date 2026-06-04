@@ -1,0 +1,175 @@
+.dashboard-wrapper {
+  min-height: 100vh;
+  background: #f5f6fa;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ================= HEADER ================= */
+.dashboard-header {
+  background: white;
+  padding: 25px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.brand h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #5e60ce;
+}
+
+.brand p {
+  margin-top: 4px;
+  font-size: 13px;
+  color: #777;
+}
+
+.logout-btn {
+  background: #ff4d6d;
+  border: none;
+  padding: 8px 22px;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* ================= HERO ================= */
+.hero {
+  height:440px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.hero-content {
+  max-width:850px;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ================= GRID ================= */
+.dashboard-grid {
+  max-width: 1100px;
+  margin: 70px auto 100px auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+/* ================= CARD ================= */
+.card {
+  background: white;
+  padding: 25px 25px;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: 1px solid #eee;
+}
+
+.card img {
+  width: 260px;
+  margin-bottom:20px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.card p {
+  font-size: 18px;
+  color: #000000;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+}
+
+/* ================= SOS CARD ================= */
+.sos-card {
+  border: 1px solid #ff4d6d;
+}
+
+.sos-btn {
+  margin-top: 18px;
+  padding: 10px 26px;
+  border-radius: 30px;
+  border: none;
+  background: rgb(255, 86, 176);
+  color: rgb(121, 10, 69);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* ================= MODAL ================= */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 380px;
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.modal h3 {
+  margin-bottom: 10px;
+}
+
+.modal p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.modal button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal button:first-child {
+  background: #ff4d6d;
+  color: white;
+}
+
+.modal .cancel {
+  background: #eee;
+}

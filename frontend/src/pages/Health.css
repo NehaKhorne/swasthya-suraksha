@@ -1,0 +1,115 @@
+/* Container */
+.health-container {
+  min-height: 100vh;
+  padding: 50px 80px;
+  background: #f9fbff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Back Button */
+.back-btn {
+  background: none;
+  border: none;
+  color: #555;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  color: #000;
+}
+
+/* Hero Section */
+.health-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.health-hero img {
+  width: 420px;
+  border-radius: 18px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+}
+
+.hero-text h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #1f2b3d;
+}
+
+.hero-text p {
+  margin-top: 15px;
+  color: #5f6b7c;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+/* Cards Grid */
+.health-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+/* Card */
+.health-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #222;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.06);
+  transition: 0.35s ease;
+}
+
+.health-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #2a2a2a;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Hover */
+.health-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .health-container {
+    padding: 40px 25px;
+  }
+
+  .health-hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .health-hero img {
+    width: 100%;
+    max-width: 350px;
+  }
+}

@@ -1,0 +1,52 @@
+.clinical-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+  font-family: 'Inter', sans-serif;
+  color: #2c3e50;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section {
+  margin-bottom: 50px;
+  padding: 25px;
+  background: #ffffff;
+  border-left: 5px solid #6c5ce7;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+  border-radius: 6px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+  gap: 20px;
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 6px;
+}
+
+.quiz label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 8px 18px;
+  background: #6c5ce7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.score-box {
+  margin-top: 20px;
+  font-weight: 600;
+}

@@ -1,0 +1,44 @@
+.blog-detail {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+.back-btn {
+  text-decoration: none;
+  color: #7c3aed;
+  font-size: 0.9rem;
+}
+
+.category {
+  color: #7c3aed;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.summary {
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+
+/* Video */
+.video-wrapper {
+  margin: 30px 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+/* Content */
+.content p {
+  line-height: 1.9;
+  margin-bottom: 14px;
+  font-size: 1rem;
+}
