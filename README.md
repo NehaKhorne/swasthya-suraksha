@@ -1,70 +1,228 @@
-# Getting Started with Create React App
+# 🌸 SwasthyaSuraksha: AI-Powered Predictive Health and Crime Awareness Platform for Women
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+SwasthyaSuraksha is an intelligent web-based platform designed to address two critical challenges faced by women: **health monitoring** and **personal safety**. The system leverages Artificial Intelligence and Machine Learning to provide proactive healthcare insights, predictive risk assessment, and real-time emergency support through a unified digital ecosystem.
 
-In the project directory, you can run:
+The platform integrates **PCOS risk prediction**, **menstrual cycle forecasting**, **crime hotspot analysis**, **location-based safety awareness**, and an **SOS emergency response system**, enabling women to make informed decisions regarding their well-being and security.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Health Intelligence Module
 
-### `npm test`
+* AI-driven PCOS risk assessment using symptom-based analysis.
+* Menstrual cycle tracking and ovulation prediction.
+* Personalized reproductive health insights.
+* Educational resources focused on women's wellness.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Safety & Crime Awareness Module
 
-### `npm run build`
+* Crime hotspot detection and visualization using geospatial analysis.
+* Location-based safety awareness and risk assessment.
+* Crime trend monitoring and predictive analytics.
+* Interactive safety dashboard for informed decision-making.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Emergency Response System
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* One-click SOS activation.
+* Real-time GPS location sharing.
+* WhatsApp-based emergency alerts to trusted contacts.
+* Rapid communication during emergency situations.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Smart Product Recommendation
 
-### `npm run eject`
+* Comparative analysis of women's hygiene products.
+* Recommendations based on pricing, ratings, and product features.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Machine Learning Models
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### PCOS Prediction
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The system evaluates multiple machine learning algorithms, including:
 
-## Learn More
+* Random Forest
+* XGBoost
+* Decision Tree
+* Logistic Regression
+* Support Vector Machine (SVM)
+* K-Nearest Neighbors (KNN)
+* Naive Bayes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Selected Model:** Random Forest (92% Accuracy)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Menstrual Cycle Prediction
 
-### Code Splitting
+* Long Short-Term Memory (LSTM) Neural Network
+* Random Forest Regression
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Selected Model:** LSTM (95% Prediction Accuracy)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📸 Application Screenshots
 
-### Making a Progressive Web App
+### Login Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img src="screenshots/login.png" alt="Login Page" width="800"/>
 
-### Advanced Configuration
+*Secure authentication interface for accessing the SwasthyaSuraksha platform.*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### Dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img src="screenshots/dashboard.png" alt="Dashboard" width="800"/>
 
-### `npm run build` fails to minify
+*Centralized dashboard providing quick access to health monitoring and safety modules.*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+### PCOS Risk Assessment
+
+<img src="screenshots/pcos-predictor.png" alt="PCOS Predictor" width="800"/>
+
+*AI-powered PCOS prediction system based on symptom analysis and machine learning models.*
+
+---
+
+### Menstrual Cycle Tracker
+
+<img src="screenshots/period-tracker.png" alt="Period Tracker" width="800"/>
+
+*Predictive menstrual cycle tracking with ovulation and fertility window estimation.*
+
+---
+
+### Emergency SOS Module
+
+<img src="screenshots/sos-module.png" alt="SOS Module" width="800"/>
+
+*Real-time emergency alert system with GPS location sharing and WhatsApp integration.*
+
+---
+
+### Crime Hotspot Analysis
+
+<img src="screenshots/crime-heatmap.png" alt="Crime Heatmap" width="800"/>
+
+*Interactive crime heatmap visualizing high-risk and safe zones for informed travel decisions.*
+
+---
+
+### Product Comparison Module
+
+<img src="screenshots/product-comparison.png" alt="Product Comparison" width="800"/>
+
+*Comparison of women's hygiene products based on price, ratings, and features.*
+
+---
+
+### Educational Hub
+
+<img src="screenshots/educational-hub.png" alt="Educational Hub" width="800"/>
+
+*Awareness resources and educational content focused on women's health and safety.*
+
+
+## Technology Stack
+
+### Frontend
+
+* React.js
+* JavaScript (ES6)
+* HTML5
+* CSS3
+* React Router
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Database
+
+* MongoDB
+* Mongoose
+
+### Artificial Intelligence & Machine Learning
+
+* Python
+* Scikit-Learn
+* TensorFlow / Keras
+
+### APIs & Services
+
+* Google Maps API
+* Browser Geolocation API
+* WhatsApp Integration
+
+### Development Tools
+
+* Git
+* GitHub
+* VS Code
+* Postman
+* NPM
+
+---
+
+## System Architecture
+
+The platform follows a modular architecture consisting of:
+
+**Frontend Layer → Backend Layer → AI/ML Layer → Database Layer → Deployment Layer**
+
+This architecture ensures scalability, maintainability, and seamless integration between predictive analytics and real-time safety services.
+
+---
+
+## Project Impact
+
+SwasthyaSuraksha promotes:
+
+* Early detection of women's health conditions.
+* Increased awareness of reproductive health.
+* Enhanced personal safety through predictive crime analysis.
+* Faster emergency response during critical situations.
+* Technology-driven social empowerment for women.
+
+---
+
+## Future Enhancements
+
+* Mobile application deployment (Android/iOS)
+* AI-powered healthcare chatbot
+* Integration with wearable health devices
+* Real-time crime data from law enforcement sources
+* Multi-language support
+* Telemedicine and doctor consultation services
+* Advanced predictive health analytics
+
+---
+
+## Team
+
+**Bachelor of Engineering (Information Technology)**
+A.P. Shah Institute of Technology, Mumbai University
+
+**Team Members**
+
+* Neha Khorne
+* Janvi Kadam
+* Divya Keni
+* Abhirami Kalathil
+
+**Project Guides**
+
+* Prof. Shafaque Syed
+* Prof. Saylee Lapalikar
+
+---
+
+## Project Vision
+
+*"Empowering women through intelligent healthcare insights, predictive safety analytics, and AI-driven decision support."*
