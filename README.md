@@ -67,7 +67,12 @@ The system evaluates multiple machine learning algorithms, including:
 
 ### Login Page
 
-<img src="screenshots/login.png" alt="Login Page" width="800"/>
+## 📸 Application Screenshots
+
+### Login Page
+
+<img width="969" height="617" alt="image" src="https://github.com/user-attachments/assets/efff4b65-e243-41a0-ba32-50e51a0063aa" />
+
 
 *Secure authentication interface for accessing the SwasthyaSuraksha platform.*
 
@@ -75,7 +80,8 @@ The system evaluates multiple machine learning algorithms, including:
 
 ### Dashboard
 
-<img src="screenshots/dashboard.png" alt="Dashboard" width="800"/>
+<img width="949" height="638" alt="image" src="https://github.com/user-attachments/assets/c390b6bb-662b-40f5-b43c-8b019513873e" />
+
 
 *Centralized dashboard providing quick access to health monitoring and safety modules.*
 
@@ -83,7 +89,8 @@ The system evaluates multiple machine learning algorithms, including:
 
 ### PCOS Risk Assessment
 
-<img src="screenshots/pcos-predictor.png" alt="PCOS Predictor" width="800"/>
+<img width="1034" height="702" alt="image" src="https://github.com/user-attachments/assets/82cb4993-e22c-4c38-8a92-bde3109deb7e" />
+
 
 *AI-powered PCOS prediction system based on symptom analysis and machine learning models.*
 
@@ -91,7 +98,8 @@ The system evaluates multiple machine learning algorithms, including:
 
 ### Menstrual Cycle Tracker
 
-<img src="screenshots/period-tracker.png" alt="Period Tracker" width="800"/>
+<img width="1222" height="663" alt="image" src="https://github.com/user-attachments/assets/d236b5bf-6142-40c4-9f1f-d40275995292" />
+
 
 *Predictive menstrual cycle tracking with ovulation and fertility window estimation.*
 
@@ -99,7 +107,8 @@ The system evaluates multiple machine learning algorithms, including:
 
 ### Emergency SOS Module
 
-<img src="screenshots/sos-module.png" alt="SOS Module" width="800"/>
+<img width="631" height="664" alt="image" src="https://github.com/user-attachments/assets/4acf961e-b6de-4762-8d73-e5b8b518de89" />
+
 
 *Real-time emergency alert system with GPS location sharing and WhatsApp integration.*
 
@@ -107,7 +116,8 @@ The system evaluates multiple machine learning algorithms, including:
 
 ### Crime Hotspot Analysis
 
-<img src="screenshots/crime-heatmap.png" alt="Crime Heatmap" width="800"/>
+<img width="760" height="601" alt="image" src="https://github.com/user-attachments/assets/62f5c80b-5134-4711-ac39-e0fb7d75425d" />
+
 
 *Interactive crime heatmap visualizing high-risk and safe zones for informed travel decisions.*
 
@@ -115,7 +125,8 @@ The system evaluates multiple machine learning algorithms, including:
 
 ### Product Comparison Module
 
-<img src="screenshots/product-comparison.png" alt="Product Comparison" width="800"/>
+<img width="1073" height="663" alt="image" src="https://github.com/user-attachments/assets/e16d7451-058a-49cc-bafd-4186020a10a1" />
+
 
 *Comparison of women's hygiene products based on price, ratings, and features.*
 
@@ -123,10 +134,12 @@ The system evaluates multiple machine learning algorithms, including:
 
 ### Educational Hub
 
-<img src="screenshots/educational-hub.png" alt="Educational Hub" width="800"/>
+<img width="780" height="733" alt="image" src="https://github.com/user-attachments/assets/1455166d-b9d5-4d17-b8e2-9ba5ae7df7b5" />
+
 
 *Awareness resources and educational content focused on women's health and safety.*
 
+---
 
 ## Technology Stack
 
